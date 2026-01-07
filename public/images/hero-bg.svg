@@ -1,0 +1,33 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d4155;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3d5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4d6578;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+  
+  <!-- Diagonal lines pattern -->
+  <g stroke="#ff8c00" stroke-width="2" opacity="0.08">
+    <line x1="0" y1="0" x2="1920" y2="1080"/>
+    <line x1="-500" y1="0" x2="1420" y2="1080"/>
+    <line x1="500" y1="0" x2="2420" y2="1080"/>
+  </g>
+  
+  <!-- Construction theme geometric shapes -->
+  <g fill="#ff8c00" opacity="0.05">
+    <rect x="100" y="150" width="300" height="250" transform="rotate(-15 250 275)"/>
+    <rect x="1500" y="600" width="250" height="200" transform="rotate(25 1625 700)"/>
+    <rect x="800" y="200" width="200" height="180" transform="rotate(-30 900 290)"/>
+  </g>
+  
+  <!-- Orange accent circles -->
+  <g fill="#ff8c00" opacity="0.03">
+    <circle cx="200" cy="150" r="400"/>
+    <circle cx="1800" cy="950" r="350"/>
+    <circle cx="950" cy="500" r="300"/>
+  </g>
+</svg>
